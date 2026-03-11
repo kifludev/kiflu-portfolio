@@ -1,0 +1,38 @@
+import { useEffect, useState } from "react";
+export function LoadingScreen({ onComplet }) {
+  const [text, setText] = useState("");
+  const fullText = "<Hello World/>";
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      console.log("The first interval", interval);
+      setText(fullText.substring(0, index));
+      index++;
+      console.log("This is the top line of code", fullText[index]);
+      if (index > fullText.length) {
+        clearInterval(interval);
+        setTimeout(() => {
+          onComplet();
+        }, 1000);
+      }
+    }, 100);
+    console.log("Hello every one in the universe");
+    console.log("The first interval", interval);
+    return () => clearInterval(interval);
+  }, [onComplet]);
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
+      <div className="mb-4 text-4xl font-mono font-bold ">
+        {text}
+        <span className="animate-blink  ml-1 ">|</span>
+      </div>
+
+      <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
+        <div className="w-[40%] h-full bg-blue-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
+      </div>
+      {console.log("This is the buttom line of code")}
+    </div>
+  );
+}
