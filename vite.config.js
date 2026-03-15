@@ -6,7 +6,4 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/kiflu-portfolio/", // ✅ start and end with a slash
-  server: {
-    port: 3000,
-  },
 });
