@@ -13,7 +13,7 @@ export function Navbar({ menuOpen, setMenuOpen }) {
           </a>
 
           <div
-            className="md:hidden m w-7 h-5 relative cursor-pointer z-40"
+            className="md:hidden w-7 h-5 relative cursor-pointer z-40"
             onClick={() => setMenuOpen((open) => !open)}
           >
             &#9776;
