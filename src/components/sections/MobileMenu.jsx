@@ -9,7 +9,7 @@ export function MobileMenu({ menuOpen, setMenuOpen }) {
     >
       <button
         onClick={() => setMenuOpen(false)}
-        className="absolute top-4 right-6 text-red-600 text-3xl focus:outline-none cursor-pointer"
+        className="absolute top-4 right-6 text-white  bg-red-500 text-3xl focus:outline-none cursor-pointer px-1 "
         aria-label="Close-Menu"
       >
         &times;
