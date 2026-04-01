@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import portfolio from "../../assets/images/portfolio.png";
 export function Home() {
   return (
     <section
@@ -6,30 +7,39 @@ export function Home() {
       className="min-h-screen flex items-center justify-center relative "
     >
       <RevealOnScroll>
-        <div className="text-center px-4 z-10">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-500 to-purple 600 bg-clip-text text-transparent leading-right">
-            Hi, I'am kiflu Tech
-          </h1>
+        <div className="flex flex-col md:flex-row items-center gap-6 mt-18">
+          <img
+            src={portfolio}
+            alt="portfolio profile"
+            className="w-44 h-44 md:w-56 md:h-56 object-cover rounded-full transition-transform duration-300 hover:-translate-y-2"
+          />
 
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I am afull-stack developer who loves crafitng clean scalable web
-            applications.my goal is to build solution that offer both
-            exceptional performance and a delightful user experiance.
-          </p>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hiddenhover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              ViewProjects
-            </a>
+          <div className="text-center px-4 z-10">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-500 to-purple 600 bg-clip-text text-transparent leading-right">
+              Hi, I'am kiflu Tech
+            </h1>
 
-            <a
-              href="#contact"
-              className="border border-blue-500/50 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
-            >
-              Contact Me
-            </a>
+            <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+              I am afull-stack developer who loves crafitng clean scalable web
+              applications.my goal is to build solution that offer both
+              exceptional performance and a delightful user experiance.
+            </p>
+
+            <div className="flex justify-center space-x-4">
+              <a
+                href="#projects"
+                className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hiddenhover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              >
+                ViewProjects
+              </a>
+
+              <a
+                href="#contact"
+                className="border border-blue-500/50 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
+              >
+                Contact Me
+              </a>
+            </div>
           </div>
         </div>
       </RevealOnScroll>

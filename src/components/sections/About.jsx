@@ -1,14 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 export function About() {
-  const frontEndSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "Tailwindcss",
-    "Svelte",
-  ];
+  const frontEndSkills = ["React", "css", "JavaScript", "Tailwindcss", "HTML"];
 
-  const backEndSkills = ["Node.js", "Python", "AWS", "Mysql", "RestAPI"];
+  const backEndSkills = ["Node.js", "express", "Mysql", "RestAPI"];
 
   return (
     <section
@@ -69,8 +63,12 @@ export function About() {
                   - 2026)
                 </li>
                 <li>
-                  Revalent Coursework:Data Structures,Web Development,Cloud
-                  Computing...
+                  Full Stack web development: certificate completion at:
+                  <span className="text-blue-500">safaricom.gebeya.org</span>{" "}
+                  Fundamental Webdevelopment:certificate completion at :{" "}
+                  <span className="text-blue-500">
+                    www.udacity.com/certificate/e/b2ab480a-9e74-11ef-a279-83c62161a426
+                  </span>
                 </li>
               </ul>
             </div>
@@ -79,16 +77,12 @@ export function About() {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semi-bold">
-                    Software Engineer at ABC Corp (2026-present)
+                    Develop web app for Atse Zeriakob Youth Center(2026-present)
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud based
-                    applications.
-                  </p>
                 </div>
                 <div>
                   <h4 className="font-semi-bold">
-                    Intern at DEF Startups (2023)
+                    Intern at keamedCollege Startups (2023)
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
