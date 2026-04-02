@@ -93,22 +93,16 @@ export function Projects() {
                 {/* LINKS */}
                 <div className="flex items-center gap-4 mt-4">
                   {/* GitHub */}
-                  <a
-                    href="https://github.com/your-username/project"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xl text-gray-400 hover:text-white"
-                  >
-                    <FaGithub />
-                  </a>
-
-                  {/* Live */}
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 text-sm"
-                  >
-                    Live Demo →
-                  </a>
+               <a
+                  href="https://kifludev.github.io/AsteZeriakobDycenterwebProject/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-gray-400 hover:text-white transition-colors"
+                >
+                  <div>
+                    <span>View projects →</span> <FaGithub />
+                  </div>
+                </a>
                 </div>
               </div>
             </div>
@@ -151,21 +145,15 @@ export function Projects() {
                 <div className="flex items-center gap-4 mt-4">
                   {/* GitHub */}
                   <a
-                    href="https://github.com/your-username/project"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xl text-gray-400 hover:text-white"
-                  >
-                    <FaGithub />
-                  </a>
-
-                  {/* Live */}
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 text-sm"
-                  >
-                    Live Demo →
-                  </a>
+                  href="https://kifludev.github.io/AsteZeriakobDycenterwebProject/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-gray-400 hover:text-white transition-colors"
+                >
+                  <div>
+                    <span>View projects →</span> <FaGithub />
+                  </div>
+                </a>
                 </div>
               </div>
             </div>
@@ -207,22 +195,16 @@ export function Projects() {
                 {/* LINKS */}
                 <div className="flex items-center gap-4 mt-4">
                   {/* GitHub */}
-                  <a
-                    href="https://github.com/your-username/project"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xl text-gray-400 hover:text-white"
-                  >
-                    <FaGithub />
-                  </a>
-
-                  {/* Live */}
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 text-sm"
-                  >
-                    Live Demo →
-                  </a>
+                   <a
+                  href="https://kifludev.github.io/AsteZeriakobDycenterwebProject/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-gray-400 hover:text-white transition-colors"
+                >
+                  <div>
+                    <span>View projects →</span> <FaGithub />
+                  </div>
+                </a>
                 </div>
               </div>
             </div>
@@ -265,21 +247,15 @@ export function Projects() {
                 <div className="flex items-center gap-4 mt-4">
                   {/* GitHub */}
                   <a
-                    href="https://github.com/your-username/project"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xl text-gray-400 hover:text-white"
-                  >
-                    <FaGithub />
-                  </a>
-
-                  {/* Live */}
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 text-sm"
-                  >
-                    Live Demo →
-                  </a>
+                  href="https://kifludev.github.io/AsteZeriakobDycenterwebProject/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-gray-400 hover:text-white transition-colors"
+                >
+                  <div>
+                    <span>View projects →</span> <FaGithub />
+                  </div>
+                </a>
                 </div>
               </div>
             </div>
@@ -321,22 +297,16 @@ export function Projects() {
                 {/* LINKS */}
                 <div className="flex items-center gap-4 mt-4">
                   {/* GitHub */}
-                  <a
-                    href="https://github.com/your-username/project"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xl text-gray-400 hover:text-white"
-                  >
-                    <FaGithub />
-                  </a>
-
-                  {/* Live */}
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 text-sm"
-                  >
-                    Live Demo →
-                  </a>
+                   <a
+                  href="https://kifludev.github.io/AsteZeriakobDycenterwebProject/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-gray-400 hover:text-white transition-colors"
+                >
+                  <div>
+                    <span>View projects →</span> <FaGithub />
+                  </div>
+                </a>
                 </div>
               </div>
             </div>
